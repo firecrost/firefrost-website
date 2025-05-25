@@ -48,7 +48,7 @@ const config = {
             {
                 inGameName: "Zcrosty",
                 rank: "Owner",
-                skinUrlOrPathToFile: "236c08c0-b491-47ed-a0a6-c75a56c10714",
+                skinUrlOrPathToFile: "gunnar3k",
                 rankColor: "rgba(255, 3, 3, 1)"
             },
             {
