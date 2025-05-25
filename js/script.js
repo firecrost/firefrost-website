@@ -48,7 +48,7 @@ const config = {
             {
                 inGameName: "Zcrosty",
                 rank: "Owner",
-                skinUrlOrPathToFile: "https://minesk.in/e2f1d0be474c4c468a8ec0ff148bf97b",
+                skinUrlOrPathToFile:"/skins/body.png", // Proje klasörünüzdeki /skins/ dizinindeki dosya",
                 rankColor: "rgba(255, 3, 3, 1)"
             },
             {
