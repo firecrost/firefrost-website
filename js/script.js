@@ -48,7 +48,7 @@ const config = {
             {
                 inGameName: "Zcrosty",
                 rank: "Owner",
-                skinUrlOrPathToFile:"/skins/body.png", // Proje klasörünüzdeki /skins/ dizinindeki dosya",
+                skinUrlOrPathToFile:"skins/body.png", // Proje klasörünüzdeki /skins/ dizinindeki dosya",
                 rankColor: "rgba(255, 3, 3, 1)"
             },
             {
