@@ -54,7 +54,7 @@ const config = {
             {
                 inGameName: "WitherKng",
                 rank: "Owner",
-                skinUrlOrPathToFile: "",
+                skinUrlOrPathToFile: "skins/Witherkng.png",
                 rankColor: "rgba(255, 3, 3, 1)"
             },
             {
