@@ -46,9 +46,9 @@ const config = {
     adminTeamPage: {
         leaders: [
             {
-                inGameName: "Astronavta",
+                inGameName: "Zcrosty",
                 rank: "Owner",
-                skinUrlOrPathToFile: "",
+                skinUrlOrPathToFile: "https://minesk.in/52bbc3b37009445fbb88215cc6515616",
                 rankColor: "rgba(255, 3, 3, 1)"
             },
             {
