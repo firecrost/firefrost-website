@@ -48,7 +48,7 @@ const config = {
             {
                 inGameName: "Zcrosty",
                 rank: "Owner",
-                skinUrlOrPathToFile: "",
+                skinUrlOrPathToFile: "Zcrosty.png",
                 rankColor: "rgba(255, 3, 3, 1)"
             },
             {
