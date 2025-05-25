@@ -52,7 +52,7 @@ const config = {
                 rankColor: "rgba(255, 3, 3, 1)"
             },
             {
-                inGameName: "Astronavta",
+                inGameName: "WitherKng",
                 rank: "Owner",
                 skinUrlOrPathToFile: "",
                 rankColor: "rgba(255, 3, 3, 1)"
