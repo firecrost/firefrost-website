@@ -38,7 +38,7 @@
         </div>
     </div>
        <img src="images/logo.png" alt="sunucu gif">
-       <h2 class="motto">HAYALLERİNİZİN AYNASI OLMAK İSTİYORUZ !</h2>
+          <h2 class="motto">HAYALLERİNİZİN AYNASI OLMAK İSTİYORUZ !</h2>
 
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap'); /* Alternatif 3D benzeri font */
@@ -53,11 +53,17 @@ background: linear-gradient(to right, #fff9b1, #ffeb3b, #ff9800, #ff6f61);
   -webkit-text-fill-color: transparent;
   text-shadow: 2px 2px 4px #000;
   font-weight: bold;
-    border: 2px solid white;  /* Beyaz çerçeve */
-  padding: 5px 10px;         /* Çerçevenin yazıya daha iyi oturması için */
-  display: inline-block;     /* Çerçevenin yazının etrafını sarması için */
-  margin-left: auto;         /* Ortalamayı korumak için */
-  margin-right: auto;
+      -webkit-text-stroke: 1.5px white;
+  text-stroke: 1.5px white;
+
+  /* Fallback için beyaz gölgeler */
+  text-shadow:
+    -1px -1px 0 #fff,
+    1px -1px 0 #fff,
+    -1px 1px 0 #fff,
+    1px 1px 0 #fff;
+
+  font-weight: bold;
 }
 </style>
     <section id="header">
