@@ -156,6 +156,30 @@
     padding: 10px;
     transition: .2s ease-in-out;
 }
+.join-discord {
+  background-color: #5865F2;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.3s;
+  font-size: 16px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+}
+
+.join-discord:hover {
+  background-color: #4752C4;
+  transform: translateY(-2px);
+}
+
+.join-discord i {
+  font-size: 18px;
+}
 
 #header .content .right .stats .stat .icon i {
     display: flex;
