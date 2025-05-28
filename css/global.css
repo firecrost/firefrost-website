@@ -261,5 +261,74 @@ section:not(#header) .content {
     align-items: center;
     justify-content: center;
     text-align: center;
+  }/* Mobil ekranlar için */
+@media only screen and (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
   }
+
+  .links {
+    display: none; /* Hamburger menü ile değiştirebilirsin */
+  }
+
+  .menu-mobile {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+
+  .logo-img {
+    width: 40px; /* Küçült logo */
+    height: auto;
+  }
+
+  .server-name {
+    font-size: 18px;
+  }
+
+  /* Hamburger aktifken menüyü göster */
+  .hamburger.active + .links {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  /* İçerik alanları */
+  .content {
+    padding: 10px;
+  }
+
+  /* Resimler responsive */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* Yazı fontları küçülebilir */
+  h1, h2, h3, p {
+    font-size: 90%;
+  }
+
+  /* Butonlar full genişlik */
+  .buttons button, .buttons a {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  /* Mini games alanı kartları alt alta */
+  .miniGames-list {
+    flex-direction: column;
+  }
+  .game {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
 }
