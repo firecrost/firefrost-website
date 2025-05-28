@@ -1,3 +1,4 @@
 User-agent: *
 Allow: /
 Sitemap: http://firecrost.info.gf/sitemap.xml
+Sitemap: http://firecrost.info.gf/sitemap.xml
