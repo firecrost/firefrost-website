@@ -417,30 +417,47 @@
 #discord .content .join-discord a {
     text-decoration: none;
     color: var(--white-color);
-}
-.join-discord {
-  background-color: #5865F2;
-  color: white;
-  border: none;
-  padding: 12px 25px;
-  border-radius: 5px;
-  cursor: pointer;
-  font-weight: bold;
-  transition: all 0.3s;
-  font-size: 16px;
+}.join-discord {
   display: inline-flex;
   align-items: center;
   gap: 8px;
+  padding: 12px 24px;
+  background: linear-gradient(135deg, #5865F2, #7289DA);
+  color: white;
+  font-weight: 700;
+  font-size: 18px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
   text-decoration: none;
-}
-
-.join-discord:hover {
-  background-color: #4752C4;
-  transform: translateY(-2px);
+  box-shadow:
+    0 4px 10px rgba(88, 101, 242, 0.6),
+    inset 0 -2px 8px rgba(255, 255, 255, 0.3);
+  transition: background 0.3s ease, box-shadow 0.3s ease, transform 0.2s ease;
+  user-select: none;
 }
 
 .join-discord i {
-  font-size: 18px;
+  font-size: 22px;
+}
+
+.join-discord:hover,
+.join-discord:focus {
+  background: linear-gradient(135deg, #7289DA, #5865F2);
+  box-shadow:
+    0 6px 14px rgba(88, 101, 242, 0.8),
+    inset 0 -3px 10px rgba(255, 255, 255, 0.5);
+  transform: translateY(-2px);
+  outline: none;
+}
+
+.join-discord:active {
+  transform: translateY(0);
+  box-shadow:
+    0 2px 6px rgba(88, 101, 242, 0.5),
+    inset 0 -1px 5px rgba(255, 255, 255, 0.2);
+}
 }
 
 /*Vote*/
