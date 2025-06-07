@@ -14,6 +14,28 @@
 
   <title>AzureMine | Contact</title>
 </head>
+  <!-- EmailJS -->
+<script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script>
+  (function () {
+    emailjs.init("aNA8lO1uVowJ86U"); // Senin Public Key’in
+  })();
+
+  document.addEventListener("DOMContentLoaded", function () {
+    const form = document.querySelector(".contact-form");
+    form.addEventListener("submit", function (e) {
+      e.preventDefault();
+
+      emailjs.sendForm('service_r5b4mw3', 'template_amc1zme', this)
+        .then(function () {
+          alert("Mesajınız gönderildi! E-postanıza otomatik yanıt gönderildi.");
+          form.reset();
+        }, function (error) {
+          alert("Bir hata oluştu: " + JSON.stringify(error));
+        });
+    });
+  });
+</script>
 <body>
   <!--Navbar-->
   <div class="navbar">
