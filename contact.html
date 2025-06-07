@@ -93,7 +93,7 @@
     document.querySelector(".contact-form").addEventListener("submit", function (e) {
       e.preventDefault();
 
-      emailjs.sendForm("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", this)
+      emailjs.sendForm("service_r5b4mw3", "template_amc1zme", this)
         .then(function () {
           alert("Mesajınız başarıyla gönderildi!");
           e.target.reset();
